@@ -31,7 +31,7 @@ for i in range(rows):
 
 	begin_index += 5
 	end_index += 5
-	if np.any(full_img == None):
+	if np.any(full_img == None): #Тест для лабы
 		full_img = col_img
 	else:
 		full_img = np.vstack((full_img, col_img))
